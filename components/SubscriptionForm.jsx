@@ -48,7 +48,7 @@ export default function SubscriptionForm(props) {
                 <label>
                     <span>Currency</span>
                     <select value={formData.currency} onChange={handleChangeInput} name="currency">
-                        {['INR','USD', 'EUR', 'GBP', 'AUD', "NZD", 'Other'].map((cur, curIndex) => {
+                        {['USD', 'EUR', 'GBP', 'NZD', "AUD", 'Other'].map((cur, curIndex) => {
                             return (
                                 <option key={curIndex}>{cur}</option>
                             )
@@ -71,7 +71,7 @@ export default function SubscriptionForm(props) {
                 <label>
                     <span>Payment Method</span>
                     <select value={formData.paymentMethod} onChange={handleChangeInput} name="paymentMethod">
-                        {['UPI','Credit Card', 'Debit Card', 'Paypal', 'Bank Transfer', 'Other'].map((cur, curIndex) => {
+                        {['Credit Card', 'Debit Card', 'Paypal', 'Bank Transfer', 'Other'].map((cur, curIndex) => {
                             return (
                                 <option key={curIndex}>{cur}</option>
                             )
