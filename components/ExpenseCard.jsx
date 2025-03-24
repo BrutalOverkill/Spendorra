@@ -1,5 +1,5 @@
 export default function ExpenseCard() {
-    return (
+  return (
       <div></div>
-    );
-  }
+  )
+}

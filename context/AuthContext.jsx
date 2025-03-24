@@ -93,7 +93,7 @@ export function AuthProvider(props) {
                 setLoading(false)
 
             } catch (err) {
-                console.log(err.message)            
+                console.log(err.message)
             }
         })
         return unsubscribe
