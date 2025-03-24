@@ -189,7 +189,7 @@ export const subscriptions = [
         name: "Netflix",
         category: "Entertainment",
         cost: 15.99, // Monthly cost in USD
-        currency: "USD",
+        currency: "",
         billingFrequency: "Monthly", // Could be "Monthly", "Yearly", etc.
         paymentMethod: "Credit Card", // e.g., Credit Card, PayPal, etc.
         startDate: "2022-06-15", // Subscription start date
