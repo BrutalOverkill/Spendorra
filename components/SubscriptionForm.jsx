@@ -71,7 +71,7 @@ export default function SubscriptionForm(props) {
                 <label>
                     <span>Payment Method</span>
                     <select value={formData.paymentMethod} onChange={handleChangeInput} name="paymentMethod">
-                        {['Credit Card', 'Debit Card', 'Paypal', 'Bank Transfer', 'Other'].map((cur, curIndex) => {
+                        {['UPI','Credit Card', 'Debit Card', 'Paypal', 'Bank Transfer', 'Other'].map((cur, curIndex) => {
                             return (
                                 <option key={curIndex}>{cur}</option>
                             )
