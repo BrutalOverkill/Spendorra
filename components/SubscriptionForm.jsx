@@ -48,7 +48,7 @@ export default function SubscriptionForm(props) {
                 <label>
                     <span>Currency</span>
                     <select value={formData.currency} onChange={handleChangeInput} name="currency">
-                        {['USD', 'EUR', 'GBP', 'NZD', "AUD", 'Other'].map((cur, curIndex) => {
+                        {['INR','USD', 'EUR', 'GBP', 'NZD', "AUD", 'Other'].map((cur, curIndex) => {
                             return (
                                 <option key={curIndex}>{cur}</option>
                             )
