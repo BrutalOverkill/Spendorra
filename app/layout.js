@@ -1,5 +1,5 @@
 import "./globals.css";
-import './fanta.css'
+import './custom.css'
 import Head from "./Head";
 import Link from "next/link";
 import GoTo from "@/components/GoTo";
