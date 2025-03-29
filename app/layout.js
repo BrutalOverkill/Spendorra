@@ -33,7 +33,9 @@ export default function RootLayout({ children }) {
             <p>|</p>
             <button disabled>Install app</button>
           </div>
-          <p className="copyright">© Copyright 2024-2025, James McArthur.<br />All rights reserved.</p>
+          <p className="copyright">© Copyright 2024-2025, Anvit Singh.<br />All rights reserved.</p>
+          <p>By <a href="https://www.anvitdoestech.com" target="_blank">Anvit Singh</a> ⭐️ the repo on <a target="_blank"
+                href="https://github.com/BrutalOverkill/Spendorra">GitHub</a></p>
         </div>
         <div>
           <p>Facing issues? <a>Get help</a></p>
