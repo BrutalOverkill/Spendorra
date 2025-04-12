@@ -1,6 +1,6 @@
 # Spendorra 💰
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_DEPLOY_ID_HERE/deploy-status)](https://app.netlify.com/sites/spendorra/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd00eeb5-905a-4dc8-b9f1-978254a948ed/deploy-status)](https://app.netlify.com/sites/spendorra/deploys)
 
 Spendorra is a subscription tracking web application that helps users monitor their recurring expenses and analyze spending patterns.
 
