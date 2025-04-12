@@ -24,8 +24,7 @@ Spendorra is a subscription tracking web application that helps users monitor th
 - **Database**: Firebase Firestore (NoSQL)
 - **Authentication**: Firebase Auth
 - **Deployment**: Netlify
-- **UI Components**: (Add if you used any UI library)
-- **Charting**: (Add if you used any chart library)
+- **UI Components**: My own custom CSS
 
 ## Screenshots 🖼️
 
@@ -44,18 +43,15 @@ Spendorra is a subscription tracking web application that helps users monitor th
 ### Installation
 
 1. Clone the repository:
-```bash
 git clone https://github.com/YOUR_USERNAME/spendorra.git
 cd spendorra
 
 2. Install dependencies:
-
 npm install
 # or
 yarn install
 
 3. Set up Firebase:
-
 - Create a new Firebase project at Firebase Console
 
 - Enable Email/Password authentication
@@ -78,6 +74,7 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 
 5. Project Structure 📂
+
 spendorra/
 ├── components/       # Reusable components
 ├── context/          # React context providers
@@ -91,7 +88,7 @@ spendorra/
 ├── styles/           # Global styles
 └── README.md         # This file
 
-6. Deployment 🌐
+### Deployment 🌐
 
 Netlify Deployment
 
@@ -116,8 +113,8 @@ firebase init hosting
 firebase deploy
 
 
-7. Contributing 🤝
-We welcome contributions! Please follow these steps:
+### Contributing 🤝
+I welcome contributions! Please follow these steps:
 
 - Fork the repository
 
@@ -131,7 +128,7 @@ We welcome contributions! Please follow these steps:
 
 Please ensure your code follows the existing style and includes appropriate tests.
 
-8. Support ❤️
+### Support ❤️
 If you find Spendorra useful, consider:
 
 - ⭐ Starring this repository on GitHub
