@@ -88,7 +88,7 @@ spendorra/
 ├── styles/           # Global styles
 └── README.md         # This file
 
-### Deployment 🌐
+## Deployment 🌐
 
 Netlify Deployment
 
@@ -113,7 +113,7 @@ firebase init hosting
 firebase deploy
 
 
-### Contributing 🤝
+## Contributing 🤝
 I welcome contributions! Please follow these steps:
 
 - Fork the repository
@@ -128,7 +128,7 @@ I welcome contributions! Please follow these steps:
 
 Please ensure your code follows the existing style and includes appropriate tests.
 
-### Support ❤️
+## Support ❤️
 If you find Spendorra useful, consider:
 
 - ⭐ Starring this repository on GitHub
